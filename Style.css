@@ -1,7 +1,22 @@
 body{
-    background-color: rgb(112, 111, 111);
+    background-color: #fdfeff;
 }
 
 h1{
     align-content: center;
+}
+
+.TopNav{
+    position: absolute;
+    top: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    padding: 30px 16px;
+    background-color: #78c7df
+}
+
+.NoUnderline{
+    text-decoration: none;
 }
