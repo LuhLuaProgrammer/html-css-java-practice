@@ -1,6 +1,18 @@
 body{
-    background-color: #fdfeff;
+    /* REALLY REALLY COOL BACKGROUND OVERLAY PROBABLY WILL USE THIS SOMEDAY!*/
+    /*background: linear-gradient(skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;*/
+    background-image: url(BackgroundImageFolder/BigCat.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     display: flex;
+}
+
+p{
+    padding: 100px;
+    font-family: monospace;
+    /*background: linear-gradient(skyblue, lightgreen);*/
 }
 
 #BorderText{
@@ -25,14 +37,13 @@ body{
     right: 0;
     font-size: 40px;
     padding: 30px 16px;
-    background-color: #78c7df
+    background-color: #00c2fd
 }
 
 
 
 .LowerNavigation{
     margin: 100px 0px;
-    background-color: white;
     padding: 10px 10px;
 }
 
